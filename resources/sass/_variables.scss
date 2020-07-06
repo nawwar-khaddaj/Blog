@@ -1,0 +1,49 @@
+// Body
+$body-bg: #f8fafc;
+
+// Typography
+$font-family-sans-serif: 'Nunito', sans-serif;
+$font-size-base: 0.9rem;
+$line-height-base: 1.6;
+
+// Colors
+$blue: #3490dc;
+$indigo: #6574cd;
+$purple: #9561e2;
+$pink: #f66d9b;
+$red: #e3342f;
+$orange: #f6993f;
+$yellow: #ffed4a;
+$green: #38c172;
+$teal: #4dc0b5;
+$cyan: #6cb2eb;
+$white: #fff;
+$black: #000;
+
+
+// Global Rules for the frontend sets in here
+$bold: "PFD-Bold";
+$regular: "PFD-Regular";
+$light: "PFD-Light";
+// Fonts
+@font-face {
+  font-family: "PFD-Bold";
+  src: url('/public/assets/fonts/PFDinTextUniversal-Bold.otf');
+}
+@font-face {
+  font-family: "PFD-Regular";
+  src: url('/public/assets/fonts/PFDinTextUniversal-Regular.otf');
+}
+@font-face {
+  font-family: "PFD-Light";
+  src: url('/public/assets/fonts/PFDinTextUniversal-Light.otf');
+}
+
+// Global Classes
+
+.container {
+  @media only screen and (max-width: 480px){
+    max-width: 90%;
+    margin: auto;
+  }
+}
